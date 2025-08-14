@@ -1,0 +1,66 @@
+body{
+    background-color: aquamarine;
+}
+.container{width: 100%; height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.recuadro-login{width: 60%;
+    height: 50%;
+background-color: red;
+border-radius: 15%;
+display: flex;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.container-form{
+width: 40%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+form{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.container-input{
+    margin: 4px 0px;
+    display: flex;
+    flex-direction: column;
+width: 100%;
+align-items: center;
+}
+label{
+    color: white
+}
+input{
+    height: 40px;
+    width: 90%;
+    border-radius: 50px;
+    border: none;
+}
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 22px;
+}
+.container-img{
+    width: 50%;
+    background-image: url(https://pbs.twimg.com/media/FtMz1LXXsAEj0CX.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin: 5px;
+
+}
